@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  background-color: rgb(249, 240, 223);
+  color: rgb(10, 9, 9);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+h1 {
+  color: rgb(114, 1, 1);
+  font-family:'Times New Roman', Times, serif;
+  font-size: x-large;
+  line-height: 40px;
+}
+
+h2 {
+  color: brown;
+  font-family:'Times New Roman', Times, serif;
+  font-size: large;
+  line-height: 36px;
+}
+
+div {
+  display: block;
+}
+
+p {
+  display: block;
+  margin-bottom: 40px
+}
+
+.btn-brown {
+  background-color: brown;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+a {
+  color: rgb(159, 55, 55);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: grey;
+}
+
+.container {
+  width: 1000px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+}
+
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 760px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 520px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 350px;
+  }
+}
+
+.img-circle {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-white {
+  background-color: rgb(251, 249, 243);
+  padding: 30px;
+  border: 1px solid lightgrey;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 30px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 10px;
+}
